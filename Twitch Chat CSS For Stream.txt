@@ -1,0 +1,64 @@
+/**
+* Originally blatanly copied from https://www.reddit.com/r/Twitch/comments/ipifcm/transparent_chat_css_generator/
+* then modified further
+*/
+
+
+/**
+ * Change font color for all user and system names and messages, add text shadow and make background transparent
+ */
+body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__message, .chat-author__display-name {
+	color: #FFFFFF !important;
+	margin: 0 auto!important;
+	overflow: hidden!important;
+	font-family: "ChevyRay - Softsquare" !important;
+	font-size: 24px!important;
+	text-shadow:
+		-1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		1px -1px 1px #000000,
+		1px  1px 1px #000000!important;
+	background-color: rgba(0,0,0,0)!important;
+	line-height: 110% !important;
+}
+
+/**
+ * Remove the header section
+ */
+.stream-chat .stream-chat-header { 
+	display: none!important;
+}
+
+/**
+ * Remove the footer section
+ */
+.stream-chat .chat-input {
+	display: none!important;
+}
+
+/**
+ * I feel like this will stop working at some point but
+* it's supposed to recolor teh text for point redeems
+ */
+.grjXFy {
+
+color: #FFFFFF !important;
+
+}
+
+
+/**
+ * Put the chat messages at bottom of window. Still keeps new messages as bottom most message.
+ */
+.scrollable-area {
+
+	align-content: end;
+
+}
+
+/**
+ * Remove the welcome message, "chat mod action" messages, and likely other things.
+ */
+.chat-line__status {
+	display: none;
+}
