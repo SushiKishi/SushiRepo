@@ -7,8 +7,8 @@
 /**
  * Change font color for all user and system names and messages, add text shadow and make background transparent
  */
-body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__message, .chat-author__display-name {
-	color: #FFFFFF !important;
+body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__message {
+	color: #FF66FF !important;
 	margin: 0 auto!important;
 	overflow: hidden!important;
 	font-family: "ChevyRay - Softsquare" !important;
@@ -21,6 +21,29 @@ body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__messag
 	background-color: rgba(0,0,0,0)!important;
 	line-height: 110% !important;
 }
+
+/**
+ * Same as above but retains font color for usernames. What to do about black?
+ */
+
+.chat-author__display-name {
+	
+	margin: 0 auto!important;
+	overflow: hidden!important;
+	font-family: "ChevyRay - Softsquare" !important;
+	font-size: 24px!important;
+	text-shadow:
+		-1px -1px 1px #000000,
+		-1px  1px 1px #000000,
+		1px -1px 1px #000000,
+		1px  1px 1px #000000!important;
+	background-color: rgba(0,0,0,0)!important;
+	line-height: 110% !important;
+}
+
+
+.chat-author__display-name
+
 
 .link-fragment {
 
