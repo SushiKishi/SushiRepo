@@ -22,6 +22,14 @@ body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__messag
 	line-height: 110% !important;
 }
 
+.link-fragment {
+
+	color: #FF99FF !important;
+
+}
+
+
+
 /**
  * Remove the header section
  */
