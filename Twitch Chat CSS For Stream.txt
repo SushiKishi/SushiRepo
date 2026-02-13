@@ -8,16 +8,12 @@
  * Change font color for all user and system names and messages, add text shadow and make background transparent
  */
 body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__message {
-	color: #FF66FF !important;
+	color: #FFFFFF !important;
 	margin: 0 auto!important;
 	overflow: hidden!important;
 	font-family: "ChevyRay - Softsquare" !important;
-	font-size: 24px!important;
-	text-shadow:
-		-1px -1px 1px #000000,
-		-1px  1px 1px #000000,
-		1px -1px 1px #000000,
-		1px  1px 1px #000000!important;
+	font-size: 22px!important;
+	  text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;
 	background-color: rgba(0,0,0,0)!important;
 	line-height: 110% !important;
 }
@@ -28,15 +24,12 @@ body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__messag
 
 .chat-author__display-name {
 	
+	color: #FF99FF !important;
 	margin: 0 auto!important;
 	overflow: hidden!important;
 	font-family: "ChevyRay - Softsquare" !important;
-	font-size: 24px!important;
-	text-shadow:
-		-1px -1px 1px #000000,
-		-1px  1px 1px #000000,
-		1px -1px 1px #000000,
-		1px  1px 1px #000000!important;
+	font-size: 22px!important;
+  text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;
 	background-color: rgba(0,0,0,0)!important;
 	line-height: 110% !important;
 }
@@ -64,7 +57,7 @@ body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__messag
  * Remove the footer section
  */
 .stream-chat .chat-input {
-	display: none!important;
+	display: none !important;
 }
 
 /**
@@ -93,3 +86,26 @@ color: #FFFFFF !important;
 .chat-line__status {
 	display: none;
 }
+
+/**
+ * Remove badges
+ */
+ 
+ .chat-badge {
+ display: none;
+ }
+ 
+ 
+ 
+ 
+//changes text color of announcements
+//good luck changing the background color though lol 
+ .eDNrvd {
+ 
+	color: white;
+ 
+ }
+
+//changes the color of the border on the sides of announcements
+.ejWrwZ  { border-color: transparent !important;}
+
