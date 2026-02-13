@@ -1,3 +1,5 @@
+
+
 /* pretty sure this came from https://chatv2.septapus.com/ */
 
 /* Background colors*/
@@ -36,10 +38,10 @@ yt-live-chat-author-chip #author-name {
 }
 /* Outlines */
 yt-live-chat-renderer * {
-  text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;
-  font-family: "ChevyRay - Softsquare";
-  font-size: 24px !important;
-  line-height: -1px !important;
+	text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;
+   font-family: "ChevyRay - Softsquare";
+  font-size: 22px !important;
+  line-height: 110% !important;
 }
 
 yt-live-chat-text-message-renderer #content,
@@ -83,6 +85,7 @@ yt-live-chat-legacy-paid-message-renderer #author-photo {
   height: 24px !important;
   border-radius: 24px !important;
   margin-right: 6px !important;
+  display: none !important;
 }
 
 /* Hide badges. */
@@ -94,37 +97,37 @@ yt-live-chat-text-message-renderer #author-badges {
 /* Timestamps. */
 yt-live-chat-text-message-renderer #timestamp {
   
-  color: #999999 !important;
+  color: #FFFFFF !important;
   font-family: "ChevyRay - Softsquare";
-  font-size: 24px !important;
-  line-height: 24px !important;
+  
+  line-height: 110% !important;
 }
 
 /* Badges. */
 yt-live-chat-text-message-renderer #author-name[type="owner"],
 yt-live-chat-text-message-renderer #author-name.owner,
 yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="owner"] {
-  color: #ffd600 !important;
+  color: #FF9999 !important;
 }
 
 yt-live-chat-text-message-renderer #author-name[type="moderator"],
 yt-live-chat-text-message-renderer #author-name.moderator,
 yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="moderator"] {
-  color: #5e84f1 !important;
+  color: #FF9999 !important;
 }
 
 yt-live-chat-text-message-renderer #author-name[type="member"],
 yt-live-chat-text-message-renderer #author-name.member,
 yt-live-chat-text-message-renderer yt-live-chat-author-badge-renderer[type="member"] {
-  color: #0f9d58 !important;
+  color: #FF9999 !important;
 }
 
 /* Channel names. */
 yt-live-chat-text-message-renderer #author-name {
-  color: #cccccc !important;
+  color: #CCCCCC !important;
   font-family: "ChevyRay - Softsquare";
-  font-size: 24px !important;
-  line-height: 24px !important;
+  font-size: 22px !important;
+
 }
 
 yt-live-chat-text-message-renderer #author-name::after {
@@ -135,10 +138,10 @@ yt-live-chat-text-message-renderer #author-name::after {
 /* Messages. */
 yt-live-chat-text-message-renderer #message,
 yt-live-chat-text-message-renderer #message * {
-  color: #ff9999 !important;
+  color: #FFFFFF !important;
   font-family: "ChevyRay - Softsquare";
-  font-size: 24px !important;
-  line-height: -1px !important;
+  font-size: 22px !important;
+  line-height: 110% !important;
   letter-spacing: normal !important;
 }
 
@@ -148,28 +151,28 @@ yt-live-chat-paid-message-renderer #author-name,
 yt-live-chat-paid-message-renderer #author-name *,
 yt-live-chat-legacy-paid-message-renderer #event-text,
 yt-live-chat-legacy-paid-message-renderer #event-text * {
-  color: #ffcccc !important;
+  color: #ff9999 !important;
   font-family: "ChevyRay - Softsquare";
-  font-size: 24px !important;
-  line-height: 24px !important;
+  font-size: 22px !important;
+
 }
 
 yt-live-chat-paid-message-renderer #purchase-amount,
 yt-live-chat-paid-message-renderer #purchase-amount *,
 yt-live-chat-legacy-paid-message-renderer #detail-text,
 yt-live-chat-legacy-paid-message-renderer #detail-text * {
-  color: #ffcccc !important;
+  color: #ff9999 !important;
   font-family: "ChevyRay - Softsquare";
-  font-size: 24px !important;
-  line-height: 24px !important;
+  font-size: 22px !important;
+
 }
 
 yt-live-chat-paid-message-renderer #content,
 yt-live-chat-paid-message-renderer #content * {
-  color: #ffcccc !important;
+  color: #ff9999 !important;
   font-family: "ChevyRay - Softsquare";
-  font-size: 24px !important;
-  line-height: 24px !important;
+  font-size: 22px !important;
+
 }
 
 yt-live-chat-moderation-message-renderer {
@@ -240,3 +243,4 @@ yt-live-chat-viewer-engagement-message-renderer {
 	  display: none !important;
 	
 }
+
