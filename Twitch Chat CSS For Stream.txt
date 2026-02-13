@@ -106,6 +106,3 @@ color: #FFFFFF !important;
  
  }
 
-//changes the color of the border on the sides of announcements
-.ejWrwZ  { border-color: transparent !important;}
-
