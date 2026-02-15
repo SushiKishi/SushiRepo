@@ -7,7 +7,7 @@
 /**
  * Change font color for all user and system names and messages, add text shadow and make background transparent
  */
-body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__message {
+body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__message, .chat__message, .chat__item {
 	color: #FFFFFF !important;
 	margin: 0 auto!important;
 	overflow: hidden!important;
@@ -96,13 +96,35 @@ color: #FFFFFF !important;
  }
  
  
- 
- 
-//changes text color of announcements
-//good luck changing the background color though lol 
  .eDNrvd {
  
 	color: white;
+
  
  }
 
+.chat-line__announcement {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+/**
+ * This class seems to contain everything ever in every message.
+ * It's the only way I can seem to remove the background on announcements.
+ */
+.Layout-sc-1xcs6mc-0 {
+
+	background-color: transparent !important;
+
+
+}
+
+/**
+ * Makes all the SVGs white, e.g. icon for announcements
+ * 
+ */
+svg {
+
+	filter: brightness(0) saturate(100%) invert(100%) !important;
+
+}
