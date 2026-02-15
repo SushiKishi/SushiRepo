@@ -11,7 +11,7 @@ body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__messag
 	color: #FFFFFF !important;
 	margin: 0 auto!important;
 	overflow: hidden!important;
-	font-family: "ChevyRay - Softsquare" !important;
+	font-family: "Zpix" !important;
 	font-size: 22px!important;
 	  text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;
 	background-color: rgba(0,0,0,0)!important;
@@ -27,7 +27,7 @@ body, .chat-room, .chat-line__moderation, .chat-line__status, .chat-line__messag
 	color: #FF99FF !important;
 	margin: 0 auto!important;
 	overflow: hidden!important;
-	font-family: "ChevyRay - Softsquare" !important;
+	font-family: "Zpix" !important;
 	font-size: 22px!important;
   text-shadow: -2px -2px #000000,-2px -1px #000000,-2px 0px #000000,-2px 1px #000000,-2px 2px #000000,-1px -2px #000000,-1px -1px #000000,-1px 0px #000000,-1px 1px #000000,-1px 2px #000000,0px -2px #000000,0px -1px #000000,0px 0px #000000,0px 1px #000000,0px 2px #000000,1px -2px #000000,1px -1px #000000,1px 0px #000000,1px 1px #000000,1px 2px #000000,2px -2px #000000,2px -1px #000000,2px 0px #000000,2px 1px #000000,2px 2px #000000;
 	background-color: rgba(0,0,0,0)!important;
@@ -119,12 +119,21 @@ color: #FFFFFF !important;
 
 }
 
-/**
- * Makes all the SVGs white, e.g. icon for announcements
- * 
- */
 svg {
 
 	filter: brightness(0) saturate(100%) invert(100%) !important;
+
+}
+
+body a {
+
+color: pink !important;
+
+}
+
+.CoreText-sc-1txzju1-0, .cWFBTs {
+
+
+color: white !important;
 
 }
